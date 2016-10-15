@@ -1,7 +1,7 @@
 matcher:
   image: bamos/openface
   ports:
-    - "8000:8000"
+    - "7000:8000"
     - "9000:9000"
   command: bash -c "/root/openface/demos/web/start-servers.sh"
 
